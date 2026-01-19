@@ -33,7 +33,7 @@ Important tests:
 
 Code structure:
 
-Sonnet Game Object
+Sonnet Object
 Params:
 - private int correct // default 0
 - private int incorrect // default 0
@@ -42,7 +42,7 @@ One argument Constructor (String sonnet)
 Methods
 boolean GameOver() // When returns true, also prints end message
 void PlayRound()
-void PlayIndexRound() // For testing specific indexes
+void PlayIndexRound(int sonnetWordInd) // For testing specific indexes
 int getCorrect() // For testing correct number
 int getIncorrect() // For testing incorrect number
 

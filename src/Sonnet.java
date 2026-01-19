@@ -33,7 +33,7 @@ public class Sonnet {
         System.out.print("What is the next word?");
         String guess = s1.nextLine();
         System.out.println();
-        if (guess != null && guess.equals(SONNET[sonnetWordInd])) {
+        if (guess != null && guess.equalsIgnoreCase(SONNET[sonnetWordInd])) {
             correct++;
             System.out.println("Good job, you got it right!");
         } else {
