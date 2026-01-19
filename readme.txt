@@ -22,6 +22,7 @@ Repeat until either counter is equal to three.
 The following assumptions are made:
 - The sonnet is passed as a String
 - The sonnet is never empty
+- When PlayIndexRound is run, it is with a working index
 
 Important tests:
 - Case-sensitive
