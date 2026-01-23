@@ -31,21 +31,6 @@ Important tests:
 - 3 Correct
 - 3 incorrect
 
-Code structure:
-
-Sonnet Object
-Params:
-- private int correct // default 0
-- private int incorrect // default 0
-- final String[] SONNET
-One argument Constructor (String sonnet)
-Methods
-boolean GameOver() // When returns true, also prints end message
-void PlayRound()
-void PlayIndexRound(int sonnetWordInd) // For testing specific indexes
-int getCorrect() // For testing correct number
-int getIncorrect() // For testing incorrect number
-
 Main Method:
 Create Sonnet Object
 while (!GameOver) Sonnet.PlayRound();

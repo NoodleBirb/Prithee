@@ -28,11 +28,14 @@ public class Sonnet {
             System.out.print(SONNET[i] + " ");
         }
         System.out.print("_".repeat(SONNET[sonnetWordInd].length()));
+
         Scanner s1 = new Scanner(System.in);
         System.out.println();
         System.out.print("What is the next word?");
+
         String guess = s1.nextLine();
         System.out.println();
+
         if (guess != null && guess.equalsIgnoreCase(SONNET[sonnetWordInd])) {
             correct++;
             System.out.println("Good job, you got it right!");

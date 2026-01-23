@@ -1,0 +1,11 @@
+Sonnet
+----------------------
+-correct : int
+-incorrect : int
+-final SONNET : String[]
+--------------------------
++GameOver() : boolean
++PlayRound() : void
++PlayIndexRound(int sonnetWordInd) : void
++getCorrect() : int
++getIncorrect() : int
